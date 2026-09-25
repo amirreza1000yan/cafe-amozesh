@@ -1,0 +1,72 @@
+.nav {
+  background-color: rgb(0, 0, 140);
+  color: white;
+  overflow: hidden;
+  position: sticky;
+  z-index: 998 !important;
+  top: 0px;
+  box-shadow: 0px 2px 2px 0px rgb(30, 28, 28);
+}
+.nav .icon span {
+  font-size: 36px;
+  vertical-align: -15px;
+}
+.nav a {
+  color: rgb(255, 255, 255);
+  margin-left: 20px;
+  display: inline-block;
+  padding: 12px 16px;
+}
+.nav .icon {
+  padding: 10px 20px;
+}
+.nav a i {
+  color: rgb(255, 255, 255);
+  vertical-align: -5px;
+}
+.nav .menu {
+  display: none;
+}
+.nav a:not(:first-child):hover {
+  border-bottom: 2px solid rgb(255, 94, 0);
+}
+@media screen and (max-width: 800px) {
+  .nav a {
+    display: none;
+  }
+  .nav .icon {
+    display: block;
+    float: right;
+    padding: 0px;
+    margin-right: 14px;
+    margin-top: 0px;
+  }
+  .nav .menu i {
+    color: white;
+  }
+  .nav .menu {
+    display: block;
+    float: left;
+  }
+  .nav.responsive {
+    position: relative;
+    overflow: visible;
+    position: sticky;
+    top: 0px;
+  }
+  .nav.responsive a.menu {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding-right: 16px;
+  }
+  .nav.responsive a:not(.home) {
+    display: block;
+    float: none;
+    text-align: right;
+  }
+  .nav.responsive a:not(.menu, .icon):hover {
+    border: none;
+    box-shadow: -3px 2px 4px 1px rgb(255, 94, 0);
+  }
+}

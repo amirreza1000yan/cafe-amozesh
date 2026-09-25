@@ -1,0 +1,74 @@
+.faq-section {
+  margin-top: 100px !important;
+}
+.faq-right {
+  background-color: white;
+  display: inline-block;
+  margin-top: 50px;
+}
+.faq-right .support {
+  margin: 20px;
+}
+.faq-right h4 {
+  display: inline;
+}
+.faq-right span {
+  color: rgb(2, 2, 245);
+  font-size: 32px;
+  vertical-align: -14px;
+}
+.faq-right p {
+  margin-right: 35px;
+  color: rgba(0, 0, 0, 0.473);
+  font-size: 14px;
+}
+.faq-left {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: -40px;
+}
+.tabs {
+  max-height: 300px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.faq-left input {
+  display: none;
+}
+.faq-left .check-label {
+  background-color: rgb(55, 55, 255);
+  display: block;
+  font-size: 18px;
+  width: 100%;
+  color: white;
+  padding: 10px 0px;
+  text-indent: 20px;
+  cursor: pointer;
+}
+.faq-left .check-label:hover {
+  background-color: rgb(34, 34, 237);
+  transition: 0.5s ease;
+}
+.faq-left .check-label::after {
+  content: "\276f";
+  float: left;
+  margin-left: 20px;
+  font-size: 22px;
+  transition: 1s;
+}
+.faq-left .check-content {
+  height: 0px;
+  overflow: hidden;
+  color: rgb(80, 80, 80);
+  background-color: white;
+  font-size: 14px;
+  transition: 1s;
+}
+.faq-left .tabs input:checked ~ .check-content {
+  height: 120px;
+  transition: 1s;
+  overflow-y: scroll;
+}
+.faq-left .tabs input:checked + .check-label::after {
+  transform: rotate(-90deg);
+}

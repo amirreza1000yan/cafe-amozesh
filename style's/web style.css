@@ -1,0 +1,38 @@
+@import url("_contact\ section.css");
+@import url("_navbar\ section.css");
+@import url("_header\ section.css");
+@import url("_course\ section.css");
+@import url("_about-us-section.css");
+@import url("_teachers-section.css");
+@import url("_statistics-section.css");
+@import url("_topic-section.css");
+@import url("_faq-section.css");
+@import url("_footer-section.css");
+@font-face {
+  font-family: vazir;
+  src: url("../fonts/Vazir-Medium.eot") format(eot);
+  src: url("../fonts/Vazir-Medium.woff") format(woff);
+  src: url("../fonts/Vazir-Medium.woff2") format(woff2);
+  font-weight: normal;
+  font-style: normal;
+}
+*::selection {
+  background-color: orange;
+  color: rgb(255, 255, 255);
+}
+* {
+  font-family: vazir;
+}
+.bi {
+  font-size: 27px;
+  padding: 3px 4px 2px 4px;
+}
+i {
+  color: black;
+}
+a {
+  text-decoration: none;
+}
+/* footer start*/
+
+/* footer over  */

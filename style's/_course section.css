@@ -1,0 +1,77 @@
+.card {
+  box-shadow: 0px 0px 3px 1px rgb(30, 28, 28);
+  cursor: pointer;
+  height:auto;
+  display: inline-block;
+  /* position: relative; */
+  /* padding: 50px; */
+}
+.img-css {
+  height: 300px !important;
+}
+section.course-section .card-overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.63);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 300px;
+  opacity: 0;
+  text-align: center;
+}
+section.course-section .card-overlay p {
+  color: white;
+  display: inline-block;
+  width: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+section.course-section .head-card {
+  height: 300px;
+}
+section.course-section .head-card:hover .card-overlay {
+  opacity: 1 !important;
+  transition: 1s ease-in;
+}
+section.course-section .body-card span {
+  font-size: 50px;
+  color: orange;
+}
+section.course-section .body-card {
+  border-top: 2px solid #818181;
+  padding: 10px;
+}
+div.comment {
+  top: 0px;
+  right: 70px;
+  padding: 10px;
+  font-size: 15px;
+}
+@media screen and (max-width: 600px) {
+  div.comment {
+    font-size: 10px;
+  }
+  section.course-section .body-card span {
+    font-size: 34px;
+    margin-right: 20px;
+  }
+  section.course-section .card .card-overlay,
+  section.course-section .head-card,
+  section.course-section .img-css {
+    height: 200px !important;
+  }
+  section.course-section .head-card {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 500px) {
+  section.course-section .card .card-overlay,
+  section.course-section .head-card,
+  section.course-section .img-css {
+    height: 150px !important;
+  }
+}

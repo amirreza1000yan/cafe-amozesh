@@ -1,0 +1,63 @@
+.topic-section {
+  margin-top: 100px !important;
+}
+.topic{
+  margin-top: 50px;
+}
+.topic .card {
+  background-color: white;
+  position: relative;
+  padding: 0px 0px 10px 0px;
+  margin-top: 20px;
+}
+.topic .card-head {
+  overflow: hidden;
+  height: 250px;
+}
+.topic .card-body {
+  border-top: 2px solid rgb(180, 172, 172);
+  padding: 10px;
+}
+.topic .card-footer {
+  opacity: 0.8;
+  padding: 10px;
+}
+.topic .card-head img {
+  transition: 1s ease;
+  height: 100%;
+}
+.topic .card-head img:hover {
+  transform: scale(1.2) rotate(10deg);
+}
+.topic .card-body p {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.705);
+}
+.topic .card-footer span {
+  font-size: 12px;
+  float: left;
+  margin-right: 10px;
+  color: rgba(0, 0, 0, 0.363);
+}
+.topic .card-footer p {
+  display: inline;
+  vertical-align: 2px;
+}
+.topic .card-body .date {
+  top: -25px;
+  left: 15px;
+}
+.topic .card-body .date :first-child{
+  background-color: orange;
+  border-radius: 2px 2px 0px 0px;
+  padding: 0px 5px;
+  text-align: center;
+  color: white;
+}
+.topic .card-body .date :last-child{
+  background-color: #0000005d;
+  border-radius: 0px 0px 2px 2px;
+  padding: 3px 8px;
+  text-align: center;
+  color: white;
+}

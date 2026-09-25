@@ -1,0 +1,30 @@
+
+div.teachers {
+  position: relative;
+}
+div.sharif {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  background-color: white;
+  box-shadow: 0px 0px 13px 6px gray;
+  width: 300px;
+  text-align: center;
+  padding: 10px 10px 50px 10px;
+}
+div.sharif h3 {
+  margin: 20px 10px 70px 10px;
+}
+div.sharif a {
+  font-size: 16px;
+  background-color: orange;
+  color: white;
+  padding: 5px;
+  border-radius: 3px;
+}
+.sharif a:hover{
+  border-radius: 0px 20px;
+  transition: .8s ease-in;
+}

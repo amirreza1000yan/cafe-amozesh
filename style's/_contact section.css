@@ -1,0 +1,91 @@
+@media screen and (max-width: 760px) {
+  .contact .bi-envelope,
+  .contact .gmail {
+    display: none;
+  }
+  #a4 {
+    display: none;
+  }
+  #a6 {
+    display: none;
+  }
+  .contact .phone {
+    margin-right: 10px;
+  }
+}
+.contact {
+  float: right;
+  padding-top: 5px;
+  line-height: 44px;
+}
+.contact-section {
+  background-color: rgb(6, 6, 31);
+  color: white;
+  height: 50px;
+}
+div.contact i {
+  color: orange;
+  font-size: 18px;
+  vertical-align: -2px;
+}
+/* social media */
+.social-media {
+  padding-top: 5px;
+  direction: ltr;
+  float: left;
+}
+.social-media i {
+  color: #fff;
+  display: inline-block;
+  height: 34px;
+  width: 29px;
+  padding-top: 0px;
+  margin: 0 10px;
+  line-height: 44px;
+  padding-left: 6px;
+}
+.social-media a {
+  color: #fff;
+  /* padding: 13px 13px; */
+}
+/* bi start  */
+@media screen and (max-width: 650px) {
+  #none {
+    display: none;
+  }
+  .social-media a {
+    padding: 4px;
+  }
+}
+.bi-instagram:hover {
+  background: linear-gradient(
+    to bottom left,
+    rgb(147, 58, 141) 30%,
+    red,
+    yellow
+  );
+  border-radius: 10px;
+  color: white;
+}
+.bi-telegram:hover {
+  color: rgb(126, 227, 255);
+  border-radius: 100px;
+  /* background-color: white; */
+}
+.bi-whatsapp:hover {
+  background-color: rgb(0, 173, 0);
+  border-radius: 100px;
+  color: white;
+}
+.bi-facebook:hover {
+  background-color: rgb(41, 139, 169);
+  border-radius: 10px;
+  color: white;
+}
+.bi-twitter-x:hover {
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+}
+/* bi over*/
+/* social media over$$ */
